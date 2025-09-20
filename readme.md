@@ -4,7 +4,8 @@ A comprehensive blog website designed for complete beginners venturing into the 
 
 ## 🌟 Live Demo
 
-**[View Live Site](https://your-username.github.io/techjourney-blog)**
+**[View Live Site here]( https://ghub-alt.github.io/beauty-to-bytes/
+)
 
 > *Replace with your actual deployed URL*
 
@@ -231,7 +232,8 @@ Hi! I'm Rose, a former beautician turned software developer. This project repres
 - **Icons**: Font Awesome for beautiful, consistent icons
 - **Fonts**: Google Fonts for excellent typography 
 
-Live link:
+Live link:https://ghub-alt.github.io/beauty-to-bytes/
+
 
 ---
 
