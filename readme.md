@@ -5,9 +5,7 @@ A comprehensive blog website designed for complete beginners venturing into the 
 ## 🌟 Live Demo
 
 **[View Live Site here]( https://ghub-alt.github.io/beauty-to-bytes/
-)
 
-> *Replace with your actual deployed URL*
 
 ## 📋 Project Overview
 
