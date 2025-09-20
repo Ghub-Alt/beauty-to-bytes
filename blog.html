@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechJourney Blog - Practical tutorials, career advice, and success stories for aspiring developers.">
+    <title>Blog - TechJourney</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <i class="fas fa-rocket"></i>
+                        TechJourney
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resources.html" class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Blog Header -->
+        <section class="blog-header">
+            <div class="container">
+                <div class="blog-intro">
+                    <h1>TechJourney Blog</h1>
+                    <p>Practical tutorials, honest career advice, and real stories from the journey to tech success.</p>
+                </div>
+                
+                <!-- Search & Filter -->
+                <div class="blog-controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="blog-search" placeholder="Search articles...">
+                    </div>
+                    
+                    <div class="filter-categories">
+                        <button class="filter-btn active" data-category="all">All Posts</button>
+                        <button class="filter-btn" data-category="getting-started">Getting Started</button>
+                        <button class="filter-btn" data-category="web-dev">Web Development</button>
+                        <button class="filter-btn" data-category="career">Career Tips</button>
+                        <button class="filter-btn" data-category="tools">Tools & Resources</button>
+                        <button class="filter-btn" data-category="success">Success Stories</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts Grid -->
+        <section class="blog-posts">
+            <div class="container">
+                <div class="blog-grid">
+                    <!-- Featured Post -->
+                    <article class="blog-card featured" data-category="success">
+                        <div class="blog-image">
+                            <div class="blog-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Success Story</span>
+                                <span class="blog-date">sept 15, 2025</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                            </div>
+                            <h2><a href="#">From The Salon to a Software Engineer: My Complete 6-Month Journey</a></h2>
+                            <p>The detailed story of how I transitioned from plaiting hair to writing code, including every resource I used, mistakes I made, and lessons learned along the way.</p>
+                            <div class="blog-tags">
+                                <span class="tag">Career Change</span>
+                                <span class="tag">Powerlearnproject Academy sponsorship</span>
+                                <span class="tag">Motivation</span>
+                            </div>
+                            <div class="blog-stats">
+                                <span><i class="fas fa-heart"></i> 1,234</span>
+                                <span><i class="fas fa-comment"></i>
